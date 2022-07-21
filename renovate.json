@@ -1,0 +1,15 @@
+{
+  "regexManagers":[
+    {
+      "fileMatch":[
+        "^package.json$"
+      ],
+      "matchStringsStrategy":"any",
+      "matchStrings":[
+        "\"(?<depName>.*)\": \"(?<currentValue>.*)\""
+      ],
+      "versioningTemplate":"npm",
+      "datasourceTemplate":"docker"
+    }
+  ]
+}
